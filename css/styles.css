@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; /* fonte */
+    display: flex; /* usa o FlexBox para exibir o conteúdo */
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página é todo o conteúdo dela */
+    align-items: center; /* centraliza na vertical */
+    background-color: #c9d1ff;
+
+}
+.container {
+    background-color: #f1f1f1;
+    padding: 22px; /* espaçamento interno */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3%;
+    box-shadow:2px 2px 10px #4f4f4f ;
+}
+.followButton{
+    border: 1px #fff;
+    background-color: #2f47e4;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0.4em;
+    color: #fefefe;
+    box-shadow: 1px 1px 5px #4f4f4f;
+    font-size: 16px;
+    width: 10em;
+    cursor: pointer;
+    transition: 130ms;
+}
+.followButton:hover{
+    font-size: 1.05rem;
+    transition: 150ms;
+}
+.description{
+    margin: 0.8em;
+    margin-top: 0.5em;
+    font-style: oblique;
+}
+.title{
+    margin-bottom: 0px;
+}
+.profile_image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
